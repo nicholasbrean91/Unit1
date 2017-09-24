@@ -1,0 +1,161 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{32, 6}, {442, 55}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "7E4E3537-173F-47D3-9EFA-5F15C0CEC078",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Choose a length and a width then place them in the text fields",
+          "name" : "Intructions",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{137, 86}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "9611469F-FF93-40F8-9B6E-E2236E6C745E",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "length_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{140, 144}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "19AAB28A-AD4A-4285-B708-A691239087E4",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "width_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{26, 86}, {103, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "3CB18698-20EF-432A-8FCE-0CCB64F3CBC1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Length",
+          "name" : "Length ",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{29, 143}, {103, 33}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "22E02E4E-0CC5-4CC8-8971-1E126BE13B50",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Width",
+          "name" : "width",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{363, 99}, {80, 52}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "6266B7F2-D6DF-4CC5-8435-551B74B25D1C",
+          "class" : "Button",
+          "name" : "Calculator button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{26, 194}, {251, 36}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "22BDD15B-E4EA-471F-9094-7B75C04A82BB",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "Area_Answer",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{26, 238}, {245, 43}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "DBAC1044-1877-4659-AB2B-462BE734736C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "permiter_answer",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
